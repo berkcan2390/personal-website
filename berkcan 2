@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kişisel Web Sayfam</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        header {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .bio {
+            margin: 20px 0;
+        }
+        .contact-info, .social-media {
+            margin: 20px 0;
+        }
+        .contact-info h2, .social-media h2 {
+            font-size: 1.5em;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+        }
+        .contact-info p, .social-media a {
+            font-size: 1.2em;
+        }
+        .social-media a {
+            display: block;
+            margin: 5px 0;
+            color: #333;
+            text-decoration: none;
+        }
+        .social-media a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Adınız Soyadınız</h1>
+            <p>Mesleğiniz</p>
+        </header>
+        <section class="bio">
+            <h2>Hakkımda</h2>
+            <p>Kısa biyografiniz burada olacak. Örneğin: "Ben [Adınız Soyadınız], [mesleğiniz] olarak çalışıyorum. [Şu anki iş yeriniz] şirketinde [pozisyonunuzda] görev almaktayım. Boş zamanlarımda [hobileriniz] ile ilgileniyorum."</p>
+        </section>
+        <section class="contact-info">
+            <h2>İletişim Bilgileri</h2>
+            <p>Email: <a href="mailto:email@example.com">email@example.com</a></p>
+            <p>Telefon: +90 555 555 5555</p>
+        </section>
+        <section class="social-media">
+            <h2>Sosyal Medya</h2>
+            <a href="https://linkedin.com/in/username" target="_blank">LinkedIn</a>
+            <a href="https://twitter.com/username" target="_blank">Twitter</a>
+            <a href="https://github.com/username" target="_blank">GitHub</a>
+        </section>
+    </div>
+</body>
+</html>
